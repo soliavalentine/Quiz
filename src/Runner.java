@@ -1,7 +1,6 @@
 import java.util.Scanner;
 public class Runner {
     public static void main(String[] args) {
-
         String q1 = "Who won best actor in the 2019 Oscars?\n" +
                 "(a)Rami Malek\n(b)Mahershala Ali\n(c)Spike Lee\n(d)Mahershala Ali\n";
         String q2 = "Which of the following is not a country?\n"
@@ -24,7 +23,6 @@ public class Runner {
         String q10 = "What is the chemical symbol for potassium?\n" +
                 "(a)P\n(b)Pt\n(c)Ko\n(d)K\n";
 
-
         Quiz[] questions = {
                 new Quiz(q1, "a"),
                 new Quiz(q2, "c"),
@@ -39,7 +37,6 @@ public class Runner {
         };
         takeIt(questions);
     }
-
     public static void takeIt(Quiz[] questions) {
         int score = 0;
         Scanner keyboardInput = new Scanner(System.in);
